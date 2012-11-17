@@ -12,11 +12,15 @@ To Run
 2. Install the Natural Language Toolkit from here: http://nltk.org/install.html
 3. Run the Python interpreter, and type the following commands:
 
-    import nltk
-    nltk.download()
+```python
+import nltk
+nltk.download()
+```
 
 4. Once the "NLTK Downloader" GUI opens, go to the Models tab and download the "punkt" model.
 5. Close the NLTK Downloader and exit the Python interpreter.
 6. Run the following to nurble-ize the provided example (Ezekiel 25:17, better known as Samuel L. Jackson's speech from *Pulp Fiction*):
 
-    python nurble.py example.txt
+```bash
+python nurble.py example.txt
+```
